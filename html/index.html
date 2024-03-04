@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>웹 기초 과제</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <link href="../css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <script type="module" src="../js/main.js"></script>
+    <div class="border_top">
+        <h2>자기소개</h1>
+        <ul>
+            <li>이름 : Olive </li>
+            <li>사는 곳 : 인천 남동구</li>
+            <li>안녕하세요! 우아한테크코스 6기 올리브입니다. 만나서 반갑습니다.</li>
+        </ul>
+    </div>
+    <div class="border_middle">
+        <h2>인생 음악 BEST5</h1>
+        <table>
+            <tr>
+              <th>순위</th>
+              <th>제목</th>
+              <th>가수</th>
+              <th>앨범아트</th>
+              <th>바로가기</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Overcome</td>
+                <td>Nothing But Theives</td>
+                <td>
+                    <img src="../images/nbt.jpg" width="100" height="100">
+                </td>
+                <td>
+                    <a href="https://www.youtube.com/watch?v=TzTv976ghws" target="_blank">클릭</a>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Fake Plastic Trees</td>
+                <td>RadioHead</td>
+                <td>
+                    <img src="../images/radiohead.jpg" width="100" height="100">
+                </td>
+                <td>
+                    <a href="https://www.youtube.com/watch?v=6gDhsUWCHrg" target="_blank">클릭</a>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>My Jinji</td>
+                <td>Sunset Rollercoaster</td>
+                <td>
+                    <img src="../images/sunsetrollercoaster.jpg" width="100" height="100">
+                </td>
+                <td>
+                    <a href="https://www.youtube.com/watch?v=CbwYZCga50U" target="_blank">클릭</a>
+                </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>I Don't Love You</td>
+                <td>My Chemical Romance</td>
+                <td>
+                    <img src="../images/mychemicalromance.jpg" width="100" height="100">
+                </td>
+                <td>
+                    <a href="https://www.youtube.com/watch?v=pyi0ZfuIIvo" target="_blank">클릭</a>
+                </td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>I Couldn't Be More In Love</td>
+                <td>The 1975</td>
+                <td>
+                    <img src="../images/the1975.jpg" width="100" height="100">
+                </td>
+                <td>
+                    <a href="https://www.youtube.com/watch?v=NT3yzVrp4o8" target="_blank">클릭</a>
+                </td>
+            </tr>
+          </table>
+    </div>
+    <div class="border_bottom">
+        <h2>방명록</h1>
+        <div>
+            이름 :　<input type="text" id="name_input" size="70">
+        </div>
+        <div>
+            본인 취향 음악
+        </div>
+        <div>
+            <input type="checkbox" id="first" name="like" value="first" />
+            <label for="first">Overcome</label>
+
+            <input type="checkbox" id="second" name="like" value="second" />
+            <label for="second">My Plastic Trees</label>
+        </div>
+        <div>
+            <input type="checkbox" id="third" name="like" value="third" />
+            <label for="third">My Jinji</label>
+
+            <input type="checkbox" id="fourth" name="like" value="fourth" />
+            <label for="fourth">I Don't Love You</label>
+
+            <input type="checkbox" id="fifth" name="like" value="fifth" />
+            <label for="fifth">I Couldn't Be More In Love</label>
+        </div>
+        <button type="button" id="save_button">등록</button>
+        <button type="reset" id="cancel_button">취소</button>
+    </div>
+</body>
+</html>
